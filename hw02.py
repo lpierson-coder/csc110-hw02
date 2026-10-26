@@ -1,11 +1,14 @@
+#used: w3schools, 
 # Task 1.1:
 #  Complete the function "read_two_ints" below:
 def read_two_ints():
     # ADD a Docstring for this function
     # the return shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
-    return 1, 2
-
+  #  return 1, 2
+x = input("give me x:");
+y = input("give me y:");
+print(x,y)
 # Task 2.1:
 #  Complete the function "compute_multadd" below:
 def compute_multadd(a, b):
